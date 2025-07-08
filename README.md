@@ -1,2 +1,2 @@
-# quiz-microservices
-The quiz app with distributed services
+# question-microservices
+The question app with distributed services
