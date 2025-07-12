@@ -9,8 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apiGateway" />
         <module name="server-registry" />
+        <module name="config-server" />
       </profile>
-      <profile name="Annotation profile for questionService" enabled="true">
+      <profile name="Annotation profile for quizService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -25,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apiGateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="questionService" options="-parameters" />
       <module name="quizService" options="-parameters" />
       <module name="server-registry" options="-parameters" />
